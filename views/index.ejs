@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs")%>
+<div class="body">
+    <p><%=anime_title %></p>
+    <p><%=id%></p>
+
+    <form action="/id" method="post">
+        <input type="text" name="id_text" value="5">
+        <input type="submit" value="enter id" >
+    </form>
+    
+
+</div>  
+<%- include("partials/footer.ejs")%>
